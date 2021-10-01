@@ -1,0 +1,23 @@
+site_name: Xeta Reality Documentation
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: pink
+    accent: pink
+extra:
+  analytics:
+    provider: google
+    property: G-1ZJ1F2LLKN
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/XetaReality
+    - icon: fontawesome/brands/github
+      link: https://github.com/XetaReality
+    - icon: fontawesome/brands/medium
+      link: https://xetareality.medium.com/
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/XetaReality
+
