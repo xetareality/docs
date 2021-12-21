@@ -1,7 +1,8 @@
 ## Intro
 Auctions allow users to offer non-fungible tokens for sale. Participants can submit XETA-bids until the auction expires or the XETA limit is reached. Auction programs automatically handle the resolution by transferring the highest bid and NFT to their new or previous owners (depending on the auction status).
 
-Use Case: `Auctioning an NFT that a user owns in exchange for XETA.`
+*Use Cases:  
+Auctioning an NFT that a user owns in exchange for XETA.*
 
 ## Functionality
 The NFT owner creates an auction pool and sets a XETA target (minimum bid to consider the auction successful), a limit value (instant-buy bid), and a time of expiration. The NFT owner then deposits the NFT to the auction pool, and participants can place bids to the auction pool. When a participant places a bid higher than the previous bid, the pool automatically returns the earlier bid to the previous leader.
