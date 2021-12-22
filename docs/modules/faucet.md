@@ -14,6 +14,6 @@ Users who own a Gmail address can request free XETA tokens from the faucet featu
 ### Create Faucet Request
 Create a faucet request and receive tokens on Mainnet and Testnet.
 
-**Requirements -** `Valid Gmail address`, `Xeta wallet`  
-**Outputs -** `XETA transfer to user on Mainnet`, `XETA transfer to user on Testnet`  
-**Inputs -** `None`  
+**Requirements:** `Valid Gmail address`, `Xeta wallet`  
+**Outputs:** `XETA transfer from faucet to wallet on Mainnet`, `XETA transfer to from faucet wallet on Testnet`  
+**Inputs:** `None`  

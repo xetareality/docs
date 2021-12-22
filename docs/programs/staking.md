@@ -56,3 +56,4 @@ Deposit reward tokens to the staking pool.
 **Outputs:** `Token transfer from sender to pool`  
 **Inputs:**  
 `Amount` - Amount to be deposited as rewards  
+`Unlocks` - Lock time of the reward token claim  

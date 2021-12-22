@@ -45,7 +45,6 @@ Deposit tokens as specified by the pool to earn a specific interest rate.
 **Inputs:**  
 `Amount` - The deposited amount  
 `Unlocks` - A datetime when the deposit claim can be redeemed  
-`Expires` - An expiry for the claim  
 
 ### Withdraw
 Withdraw tokens that have been deposited previously to the lending pool.

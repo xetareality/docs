@@ -34,7 +34,6 @@ Deposit an NFT as loot to the loot pool.
 **Inputs:**  
 `Token` - NFT token to deposit to the loot pool  
 `Unlocks` - Time until which the token will remain locked in the pool  
-`Expires` - Time at which the token cannot be withdrawn anymore  
 
 ### Withdraw
 Withdraw a previously deposited NFT, which has not been distributed yet.

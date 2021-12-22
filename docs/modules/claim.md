@@ -13,7 +13,7 @@ A claim creator creates a claim based on a specific agreement and issues it to a
 ### Create
 Enables a pool or user to issue a claim to someone.
 
-**Requirements:** `Claim token ownership`  
+**Requirements:** `Claim token balance/ownership`  
 **Outputs:** `Claim assigned to specified owner`  
 **Inputs:**  
 `Owner` - Holder who receives the claim  

@@ -12,9 +12,9 @@ The user makes an input transfer to Xeta’s bridge wallet address on the chosen
 ### Create Bridge Request
 Create a new bridge request.
 
-**Requirements -** `ETH/BSC wallet`, `XETA wallet`    
-**Outputs -** `Transfer on target chain`  
-**Inputs -**  
+**Requirements:** `ETH/BSC wallet`, `XETA wallet`  
+**Outputs:** `Transfer on target chain`  
+**Inputs:**  
 `ETH/BSC public address`  
 `XETA public address`  
 `Swap amount`  

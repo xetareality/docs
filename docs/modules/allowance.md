@@ -11,7 +11,7 @@ A user sets an allowance, granting another spender the right to spend a particul
 ### Update Allowance
 Allows a spender to spend your tokens for the specified amount.
 
-**Requirements:** `Fungible token balance`  
+**Requirements:** `Token balance`  
 **Outputs:** `Allowance to spend`  
 **Inputs:**  
 `Spender` - Public address of the spender  

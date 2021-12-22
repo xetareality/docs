@@ -35,7 +35,7 @@ Resolve launch pool after expiry or if creator manually closed pool.
 Create a launch pool for a fungible token.
 
 **Requirements:** `Token balance`  
-**Outputs:** `Launch pool for specified token`  
+**Outputs:** `Launch pool`  
 **Inputs:**  
 `Token` - Token to launch  
 `XetaTarget` - Minimum XETA target  
@@ -52,7 +52,6 @@ Deposit the fungible tokens and automatically determine the swap rate, based on 
 **Inputs:**  
 `Amount` - Amount to be deposited  
 `Unlocks` - Unlocks datetime for claim  
-`Expires` - Expires datetime for claim  
 
 ### Withdraw
 Withdraw previously deposited tokens, or remainder for a closed launch.
