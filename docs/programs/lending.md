@@ -30,9 +30,9 @@ Return previously lent tokens while paying an interest rate based on the rate sp
 `Claim` - Claim hash  
 
 ### Liquidate
-Liquidate someone’s claim that has dropped below the minimum collateralization required by the pool.
+Liquidate someone’s claim that has dropped below 75% of the minimum collateralization required by the pool.
 
-**Requirements:** `Claim collateralization < Min. collateralization`  
+**Requirements:** `Claim collateralization < 0.75 * min. collateralization`  
 **Outputs:** `XETA transfer from pool to borrower for remaining collateral`, `XETA transfer from pool to liquidator for finders reward`  
 **Inputs:**  
 `Claim` - Claim hash  

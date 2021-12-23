@@ -31,7 +31,8 @@ Withdraws reward tokens as creator or deposited tokens as a participant (but wit
 **Requirements:** `Active staking claim`  
 **Outputs:** `Token transfer from pool to sender (without rewards)`  
 **Inputs:**  
-`Claim` - Claim hash  
+`Claim` - Deposit claim hash  
+`Percentage` - Percentage to withdraw (defaults to 1 equivalent to 100%)
 
 ### Create
 Create a staking pool with a specific APY rate and bonus percentage.
