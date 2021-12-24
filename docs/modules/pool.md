@@ -1,3 +1,5 @@
+# Pool
+
 ## Intro
 Pools are autonomous accounts that execute a set of programmed instructions. Pools are generic wrappers for assets to enable decentralized functionalities such as auctions, launches, lending, locks, loots, lotteries, royalties, staking, swaps, and votes. Pools can hold tokens, make transfers, and create claims based on their underlying and specified program chosen at pool creation.
 
@@ -38,3 +40,5 @@ Create a new pool that executes instructions based on the specified program for 
 `XetaTarget` - Xeta target balance of the pool  
 `TokenLimit` - Token limit balance of the pool  
 `XetaLimit` - Xeta limit balance of the pool  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

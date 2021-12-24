@@ -1,3 +1,5 @@
+# Launch
+
 ## Intro
 Launch pools allow creators to raise funds for a project by offering fungible tokens representing the project in exchange for XETA. Launch pools have a fixed rate of raising funds and a target (minimum) and limit (maximum) XETA amount. A successful launch pool (target amount reached before closure/expiry) automatically handles the liquidity deposit to the fungible token swap pool. Anyone who participated in the launch pool can then claim fungible tokens or recover their initial contribution if the launch didn’t raise the target amount.
 
@@ -67,3 +69,5 @@ Creators can close the launch pool manually before expiry.
 **Requirements:** `Pool creator`  
 **Outputs:** `None`  
 **Inputs:** `None`  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

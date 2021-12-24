@@ -1,3 +1,5 @@
+# Staking
+
 ## Intro
 Staking pools allow creators to reward holders for locking (staking) their tokens for a definite period. After the period passes, the participant can unlock their staked tokens and receive an additional reward from the deposited rewards, based on the specified yearly interest rate and yearly interest bonus.
 
@@ -58,3 +60,5 @@ Deposit reward tokens to the staking pool.
 **Inputs:**  
 `Amount` - Amount to be deposited as rewards  
 `Unlocks` - Lock time of the reward token claim  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

@@ -1,3 +1,5 @@
+# Lending
+
 ## Intro
 Lending pools allow users to borrow tokens against XETA collateral. Lending pools allow “short selling” a token or resolving claims without owning the token. At the same time, it enables lenders to earn interest by making their tokens available for borrowers.
 
@@ -63,3 +65,5 @@ Create a lending pool for a fungible token.
 `Token` - Token to lend/borrow  
 `Percentage` - Collateralization rate  
 `Rate` - Annual interest rate  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

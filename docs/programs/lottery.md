@@ -1,3 +1,5 @@
+# Lottery
+
 ## Intro
 Lottery pools allow the distribution of fungible or non-fungible tokens in a randomized way. Lotteries can be based on specific criteria, such as a minimum token amount that someone must hold to participate or require a minimum amount to enter. After a lottery expires, it can be resolved to automatically distribute the NFT or make the fungible tokens claimable for winning participants.
 
@@ -79,3 +81,5 @@ Allows the creator to clear XETA earnings collected by the lottery pool if the p
 **Requirements:** `Pool creator`, `XETA balance by pool`  
 **Outputs:** `XETA transfer from pool to pool creator`  
 **Inputs:** `None`  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

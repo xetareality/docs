@@ -1,3 +1,5 @@
+# Bridge
+
 ## Intro
 The Xeta bridge swaps between ETH/BNB/BSC XETA and native XETA tokens, with slippage of around 1.5% (plus regular liquidity slippage for amounts that impact liquidity). This process also works vice versa. The swap process takes about 5 minutes and is completely automated in both directions.
 
@@ -20,3 +22,5 @@ Create a new bridge request.
 `Swap amount`  
 `Source-chain`  
 `Target-chain`  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

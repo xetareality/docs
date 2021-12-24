@@ -1,3 +1,5 @@
+# Vote
+
 ## Intro
 The voting pool allows participants to vote on a numeric outcome (such as bets, estimations, budgets, prediction markets) or on an outcome based on provided answers. Voting pools can require a contribution amount, which serves as a weight for the vote. Vote pools can be resolved using various mechanisms: transferring all collected tokens to the creator, the highest candidate, or the voters (by the highest voted answer or through oracle result).
 
@@ -61,3 +63,5 @@ The creator can set the correct answer so voters who claimed that answer can cla
 **Outputs:** `None`  
 **Inputs:**  
 `Answer` - Correct answer  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

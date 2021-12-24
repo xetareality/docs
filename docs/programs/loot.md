@@ -1,3 +1,5 @@
+# Loot
+
 ## Intro
 Loot pools enable token-creators to promote their NFTs in a randomized fashion. Loot pools are equivalent to NFT drops. Users can participate by paying a certain fungible-token amount and receiving a random NFT with a certain probability.
 
@@ -49,3 +51,5 @@ Clear all fungible-token proceeds held by the pool collected as entry amounts by
 **Requirements:** `Pool creator`, `Token balance by pool`  
 **Outputs:** `Token transfer from pool to pool creator`  
 **Inputs:** `None`  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

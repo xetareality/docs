@@ -1,3 +1,5 @@
+# Transfer
+
 ## Intro
 A transfer allows the transfer of fungible and non-fungible tokens between addresses.
 
@@ -21,3 +23,5 @@ Create a new fungible or non-fungible token transfer.
 `Amount` - Transfer amount for FT, empty if NFT  
 `From` - From address in case of allowance  
 `Message` - Custom transfer message  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

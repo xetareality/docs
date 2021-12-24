@@ -1,3 +1,5 @@
+# Token
+
 ## Intro
 Tokens are fungible (divisible) or non-fungible assets. Fungible tokens are similar to shares and represent fractional ownership of something. Non-fungible tokens represent objects via object URL (IPFS, S3, etc) or content hash (e.g. MD5 of bytes content).
 
@@ -55,3 +57,5 @@ Allows the creator of a fungible token to mint additional tokens from its unallo
 **Inputs:**  
 `Token` - Token address  
 `Amount` - Amount to be minted  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

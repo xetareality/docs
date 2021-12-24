@@ -1,3 +1,5 @@
+# Faucet
+
 ## Intro
 Xeta’s Faucet allows users to request a certain number of free XETA tokens on the Mainnet and Testnet. It allows users and creators to try out Xeta without purchasing or swapping tokens.
 
@@ -17,3 +19,5 @@ Create a faucet request and receive tokens on Mainnet and Testnet.
 **Requirements:** `Valid Gmail address`, `Xeta wallet`  
 **Outputs:** `XETA transfer from faucet to wallet on Mainnet`, `XETA transfer to from faucet wallet on Testnet`  
 **Inputs:** `None`  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

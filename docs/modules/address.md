@@ -1,3 +1,5 @@
+# Address
+
 ## Intro
 An address represents an account on Xeta and is either a token, pool or private wallet. Every public key is automatically an address that can receive funds, and users can customize their address profiles with name, description, links, image previews, and other info.
 
@@ -23,3 +25,5 @@ Update an address by adding custom info such as name, preview image, etc.
 `Meta` - profile data as a JSON object  
 `Preview` - preview image for the address  
 `Category` - category of the address  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

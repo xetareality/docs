@@ -1,3 +1,5 @@
+# Wallet
+
 ## Intro
 Xeta’s wallet allows users to create and manage their XETA blockchain wallets, either by managing keys yourself or letting a 3rd party provider (currently Xeta foundation) manage keys for you.
 
@@ -39,3 +41,5 @@ Connect a managed wallet.
 **Requirements:** `Account name`, `Account secret`  
 **Outputs:** `None`  
 **Inputs:** `None`  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

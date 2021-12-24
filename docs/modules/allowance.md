@@ -1,3 +1,5 @@
+# Allowance
+
 ## Intro
 An allowance can be given to another address, which is then allowed to spend a particular fungible token amount on behalf of the creator.
 
@@ -17,3 +19,5 @@ Allows a spender to spend your tokens for the specified amount.
 `Spender` - Public address of the spender  
 `Token` - Fungible-token address  
 `Amount` - Allowance amount  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

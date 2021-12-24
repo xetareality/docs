@@ -1,3 +1,5 @@
+# Claim
+
 ## Intro
 Claims represent a promise or contract that is made between two parties. A claim creator issues a claim to someone representing an option that can be redeemed based on specified terms such as timeframe or amount. The claim owner can redeem the claim once the condition of the claim is met. The fulfillment of promises made by claims is not guaranteed and is dependent on the issuers’ integrity and trust. However, if a pool with a verifiable program issues the claim, the claim resolution can be guaranteed through code.
 
@@ -61,3 +63,5 @@ Enables the claim creator to close a claim and tag it as resolved.
 **Outputs:** `None`  
 **Inputs:**  
 `Claim` - Claim hash  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

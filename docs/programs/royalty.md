@@ -1,3 +1,5 @@
+# Royalty
+
 ## Intro
 Royalty pools allow NFT creators to allocate a particular token for royalty payouts of NFT holders. Anyone who owns an NFT specified by a royalty pool can claim royalties based on the holding duration.
 
@@ -51,3 +53,5 @@ The creator can close a royalty pool at any time, making it impossible to claim 
 **Requirements:** `Pool creator`  
 **Outputs:** `None`  
 **Inputs:** `None`  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

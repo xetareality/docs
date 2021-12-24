@@ -1,3 +1,5 @@
+# Swap
+
 ## Intro
 Swap pools are automatically created for every fungible token that is minted. These allow participants to swap tokens against XETA and vice versa in a decentralized way. The price is based on the liquidity that token creators and participants can contribute, and the trades that affect the liquidity.
 
@@ -35,3 +37,5 @@ Allows withdrawing previously deposited liquidity tokens adjusted for the new li
 **Inputs:**  
 `Claim` - Deposit claim hash  
 `Percentage` - Percentage between 0-1 to withdraw  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

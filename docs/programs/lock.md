@@ -1,3 +1,5 @@
+# Lock
+
 ## Intro
 Lock pools make it possible for anyone with a fungible-token balance to lock tokens for a specific time. Locks can be set to unlock after a particular date or be valid only before a date through an expiration mechanism. Furthermore, lock pools allow the transfer of lock claim ownership to other addresses.
 
@@ -29,3 +31,5 @@ Allows participants with a valid lock-claim to unlock tokens from the lock-pool.
 **Outputs:** `Token transfer from pool to sender`  
 **Inputs:**  
 `Claim` - Lock claim hash  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>

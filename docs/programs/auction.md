@@ -1,3 +1,5 @@
+# Auction
+
 ## Intro
 Auctions allow users to offer non-fungible tokens for sale. Participants can submit XETA-bids until the auction expires or the XETA limit is reached. Auction programs automatically handle the resolution by transferring the highest bid and NFT to their new or previous owners (depending on the auction status).
 
@@ -59,3 +61,5 @@ Closes an auction before expiry. Allows anyone to call cancel or resolve methods
 **Requirements:** `Pool creator`  
 **Outputs:** `None`  
 **Inputs:** `None`  
+
+<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
