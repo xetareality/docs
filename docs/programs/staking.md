@@ -17,7 +17,7 @@ Stake tokens by locking them for a specific time.
 **Outputs:** `Token transfer from sender to pool`, `Staking claim from pool to sender`  
 **Inputs:**  
 `Amount` - Staking amount  
-`Unlocks` - Datetime until the amount will be locked  
+`Unlocks` - Datetime until which the amount will be locked  
 
 ### Claim
 Claim back the initial stake, including rewards accumulated during the staking period.

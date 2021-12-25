@@ -7,7 +7,7 @@
 ` `  
 
 # Xeta Reality Handbook
-## A documentation for modules and programs
+## Documentation for Modules and Programs
 
 ` `  
 

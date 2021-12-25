@@ -38,6 +38,7 @@ Deposit a certain amount of pool-tokens available as reward payouts for NFT hold
 **Outputs:** `Reward token transfer from sender to pool`, `Deposit claim from pool to sender`  
 **Inputs:**  
 `Amount` - Reward amount to be deposited  
+`Unlocks` - Datetime when the deposit claim can be withdrawn  
 
 ### Withdraw
 Withdraw previously deposited reward tokens (partially if rewards have been claimed already).

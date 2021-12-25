@@ -8,7 +8,7 @@ Distributing an NFT through a randomized mechanism and a single winner
 Distributing fungible-tokens through a randomized mechanism*
 
 ## Functionality
-A lottery pool can promote a fungible or single non-fungible token to participants, who can enter to win with a probability dependent on the number of entries. After creating the lottery pool, the creator must deposit the fungible tokens or a single NFT. Once the deposit is complete, any user can participate, either for free or the minimum amount required by the pool. Furthermore, pools can set a minimum amount of tokens or XETA that a user needs to hold to be eligible to participate. Requiring a minimum amount of tokens or XETA to participate improves incentives for users to remain honest while being real supporters of a project.
+A lottery pool can promote a fungible or single non-fungible token to participants, who can enter to win with a probability dependent on the number of entries. After creating the lottery pool, the creator must deposit the fungible tokens or a single NFT. Once the deposit is complete, any user can participate, either for free or the minimum amount required by the pool. Furthermore, pools can set a minimum amount of XETA that a user needs to hold to be eligible to participate. Requiring a minimum amount of XETA to participate improves incentives and prevents dishonest entries (especially if the lottery pool is sponsored).
 
 After the lottery pool expires, the resolution call automatically transfers the NFT to a single winner chosen from all participants. If the lottery is promoting a fungible token, winners (based on the pools’ probability) can claim their fungible-token rewards using their claimable ticket.
 
@@ -19,8 +19,7 @@ Transfer the entry amount to participate in the lottery.
 
 **Requirements:** `Token balance`, `XETA balance`  
 **Outputs:** `XETA transfer from sender to pool`, `Transfer claim from pool to sender`  
-**Inputs:**  
-`Token` - Pool token  
+**Inputs:** `None`  
 
 ### Claim
 Claim a lottery ticket, and receive the pool token with a certain probability.

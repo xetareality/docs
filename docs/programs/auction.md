@@ -20,7 +20,8 @@ Transfer a XETA bid to the auction pool.
 
 **Requirements:** `Bid higher than previous bid`  
 **Outputs:** `Bid transfer from sender to pool`, `Return transfer from pool to previous highest bidder`  
-**Inputs:** `None`  
+**Inputs:**  
+`Amount` - Bid amount    
 
 ### Resolve
 Resolve a successfully concluded auction pool.
@@ -53,7 +54,8 @@ Deposit an NFT to the auction pool.
 
 **Requirements:** `Pool creator`, `Pool token ownership`  
 **Outputs:** `NFT transfer from sender to pool`  
-**Inputs:** `None`  
+**Inputs:**  
+`Unlocks` - Datetime when NFT claim can be unlocked and withdrawn
 
 ### Close
 Closes an auction before expiry. Allows anyone to call cancel or resolve methods immediately.

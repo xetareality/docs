@@ -20,6 +20,7 @@ Lend tokens from the lending pool at certain collateralization.
 **Requirements:** `Collateralization >= Min. collateralization`  
 **Outputs:** `XETA transfer from sender to pool`, `Token transfer from pool to sender`  
 **Inputs:**  
+`Token` - Pool token (token to borrow)  
 `Collateralization` - Desired collateralization rate  
 `Amount` - XETA amount to be transferred as collateral  
 
@@ -37,7 +38,8 @@ Liquidate someone’s claim that has dropped below 75% of the minimum collateral
 **Requirements:** `Claim collateralization < 0.75 * min. collateralization`  
 **Outputs:** `XETA transfer from pool to borrower for remaining collateral`, `XETA transfer from pool to liquidator for finders reward`  
 **Inputs:**  
-`Claim` - Claim hash  
+`Claim` - Claim hash 
+`Token` - Pool token  
 
 ### Deposit
 Deposit tokens as specified by the pool to earn a specific interest rate.
@@ -55,6 +57,8 @@ Withdraw tokens that have been deposited previously to the lending pool.
 **Outputs:** `Token transfer from pool to sender`, `XETA transfer from pool to sender for interest earned`  
 **Inputs:**  
 `Claim` - Deposit claim hash  
+`Token` - Pool token  
+`Percentage` - Percentage to withdraw  
 
 ### Create
 Create a lending pool for a fungible token.

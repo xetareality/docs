@@ -31,7 +31,8 @@ Resolve launch pool after expiry or if creator manually closed pool.
 
 **Requirements:** `Pool XetaBalance >= XetaTarget`  
 **Outputs:** `Liquidity transfer from launch pool to swap pool`, `Funds transfer from launch pool to pool creator`  
-**Inputs:** `None`  
+**Inputs:**  
+`Token` - Pool token  
 
 ### Create
 Create a launch pool for a fungible token.
