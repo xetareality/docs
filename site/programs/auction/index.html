@@ -268,12 +268,102 @@
       
       
         <label class="md-nav__link" for="__nav_6">
+          Features
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Features" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Features
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/bridge/" class="md-nav__link">
+        Bridge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/faucet/" class="md-nav__link">
+        Faucet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/sponsorship/" class="md-nav__link">
+        Sponsorship
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/wallet/" class="md-nav__link">
+        Wallet
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
           Modules
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Modules" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+        <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           Modules
         </label>
@@ -313,36 +403,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../modules/bridge/" class="md-nav__link">
-        Bridge
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../modules/claim/" class="md-nav__link">
         Claim
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../modules/faucet/" class="md-nav__link">
-        Faucet
       </a>
     </li>
   
@@ -391,20 +453,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../modules/wallet/" class="md-nav__link">
-        Wallet
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -424,18 +472,18 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_7">
+        <label class="md-nav__link" for="__nav_8">
           Programs
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Programs" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
+        <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
           Programs
         </label>
@@ -810,7 +858,8 @@ Auctioning an NFT that a user owns in exchange for XETA</em></p>
 <p>Transfer a XETA bid to the auction pool.</p>
 <p><strong>Requirements:</strong> <code>Bid higher than previous bid</code><br />
 <strong>Outputs:</strong> <code>Bid transfer from sender to pool</code>, <code>Return transfer from pool to previous highest bidder</code><br />
-<strong>Inputs:</strong> <code>None</code>  </p>
+<strong>Inputs:</strong><br />
+<code>Amount</code> - Bid amount    </p>
 <h3 id="resolve">Resolve</h3>
 <p>Resolve a successfully concluded auction pool.</p>
 <p><strong>Requirements:</strong> <code>Pool closed or expired and bid &gt;= xetaTarget</code>, <code>Pool active and bid = xetaLimit</code><br />
@@ -835,7 +884,8 @@ Auctioning an NFT that a user owns in exchange for XETA</em></p>
 <p>Deposit an NFT to the auction pool.</p>
 <p><strong>Requirements:</strong> <code>Pool creator</code>, <code>Pool token ownership</code><br />
 <strong>Outputs:</strong> <code>NFT transfer from sender to pool</code><br />
-<strong>Inputs:</strong> <code>None</code>  </p>
+<strong>Inputs:</strong><br />
+<code>Unlocks</code> - Datetime when NFT claim can be unlocked and withdrawn</p>
 <h3 id="close">Close</h3>
 <p>Closes an auction before expiry. Allows anyone to call cancel or resolve methods immediately.</p>
 <p><strong>Requirements:</strong> <code>Pool creator</code><br />
@@ -861,7 +911,7 @@ Auctioning an NFT that a user owns in exchange for XETA</em></p>
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../../modules/wallet/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Wallet" rel="prev">
+        <a href="../../modules/transfer/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Transfer" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -870,7 +920,7 @@ Auctioning an NFT that a user owns in exchange for XETA</em></p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              Wallet
+              Transfer
             </div>
           </div>
         </a>

@@ -268,12 +268,102 @@
       
       
         <label class="md-nav__link" for="__nav_6">
+          Features
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Features" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Features
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/bridge/" class="md-nav__link">
+        Bridge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/faucet/" class="md-nav__link">
+        Faucet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/sponsorship/" class="md-nav__link">
+        Sponsorship
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/wallet/" class="md-nav__link">
+        Wallet
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
           Modules
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Modules" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+        <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           Modules
         </label>
@@ -313,36 +403,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../modules/bridge/" class="md-nav__link">
-        Bridge
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../modules/claim/" class="md-nav__link">
         Claim
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../modules/faucet/" class="md-nav__link">
-        Faucet
       </a>
     </li>
   
@@ -391,20 +453,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../modules/wallet/" class="md-nav__link">
-        Wallet
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -424,18 +472,18 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_7">
+        <label class="md-nav__link" for="__nav_8">
           Programs
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Programs" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
+        <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
           Programs
         </label>
@@ -811,7 +859,8 @@ Pay a passive income/royalties for anything in the physical or virtual reality, 
 <p><strong>Requirements:</strong> <code>Pool creator</code><br />
 <strong>Outputs:</strong> <code>Reward token transfer from sender to pool</code>, <code>Deposit claim from pool to sender</code><br />
 <strong>Inputs:</strong><br />
-<code>Amount</code> - Reward amount to be deposited  </p>
+<code>Amount</code> - Reward amount to be deposited<br />
+<code>Unlocks</code> - Datetime when the deposit claim can be withdrawn  </p>
 <h3 id="withdraw">Withdraw</h3>
 <p>Withdraw previously deposited reward tokens (partially if rewards have been claimed already).</p>
 <p><strong>Requirements:</strong> <code>Pool creator</code>, <code>Active deposit claim</code>, <code>Token balance by pool</code><br />

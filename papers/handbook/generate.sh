@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pandoc docs/handbook.md docs/modules/*.md docs/programs/*.md docs/features/*.md -o papers/handbook/handbook.pdf
+pandoc docs/Other-Resources/handbook.md docs/Core-Modules/*.md docs/Verified-Programs/*.md docs/Frontend-Features/*.md -o papers/handbook/handbook.pdf

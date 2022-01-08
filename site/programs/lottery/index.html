@@ -268,12 +268,102 @@
       
       
         <label class="md-nav__link" for="__nav_6">
+          Features
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Features" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Features
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/bridge/" class="md-nav__link">
+        Bridge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/faucet/" class="md-nav__link">
+        Faucet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/sponsorship/" class="md-nav__link">
+        Sponsorship
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/wallet/" class="md-nav__link">
+        Wallet
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
           Modules
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Modules" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+        <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           Modules
         </label>
@@ -313,36 +403,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../modules/bridge/" class="md-nav__link">
-        Bridge
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../modules/claim/" class="md-nav__link">
         Claim
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../modules/faucet/" class="md-nav__link">
-        Faucet
       </a>
     </li>
   
@@ -391,20 +453,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../modules/wallet/" class="md-nav__link">
-        Wallet
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -424,18 +472,18 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_7">
+        <label class="md-nav__link" for="__nav_8">
           Programs
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Programs" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
+        <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
           Programs
         </label>
@@ -831,15 +879,14 @@
 Distributing an NFT through a randomized mechanism and a single winner<br />
 Distributing fungible-tokens through a randomized mechanism</em></p>
 <h2 id="functionality">Functionality</h2>
-<p>A lottery pool can promote a fungible or single non-fungible token to participants, who can enter to win with a probability dependent on the number of entries. After creating the lottery pool, the creator must deposit the fungible tokens or a single NFT. Once the deposit is complete, any user can participate, either for free or the minimum amount required by the pool. Furthermore, pools can set a minimum amount of tokens or XETA that a user needs to hold to be eligible to participate. Requiring a minimum amount of tokens or XETA to participate improves incentives for users to remain honest while being real supporters of a project.</p>
+<p>A lottery pool can promote a fungible or single non-fungible token to participants, who can enter to win with a probability dependent on the number of entries. After creating the lottery pool, the creator must deposit the fungible tokens or a single NFT. Once the deposit is complete, any user can participate, either for free or the minimum amount required by the pool. Furthermore, pools can set a minimum amount of XETA that a user needs to hold to be eligible to participate. Requiring a minimum amount of XETA to participate improves incentives and prevents dishonest entries (especially if the lottery pool is sponsored).</p>
 <p>After the lottery pool expires, the resolution call automatically transfers the NFT to a single winner chosen from all participants. If the lottery is promoting a fungible token, winners (based on the pools’ probability) can claim their fungible-token rewards using their claimable ticket.</p>
 <h2 id="methods">Methods</h2>
 <h3 id="transfer">Transfer</h3>
 <p>Transfer the entry amount to participate in the lottery.</p>
 <p><strong>Requirements:</strong> <code>Token balance</code>, <code>XETA balance</code><br />
 <strong>Outputs:</strong> <code>XETA transfer from sender to pool</code>, <code>Transfer claim from pool to sender</code><br />
-<strong>Inputs:</strong><br />
-<code>Token</code> - Pool token  </p>
+<strong>Inputs:</strong> <code>None</code>  </p>
 <h3 id="claim">Claim</h3>
 <p>Claim a lottery ticket, and receive the pool token with a certain probability.</p>
 <p><strong>Requirements:</strong> <code>Active transfer claim</code><br />

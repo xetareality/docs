@@ -268,12 +268,102 @@
       
       
         <label class="md-nav__link" for="__nav_6">
+          Features
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Features" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Features
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/bridge/" class="md-nav__link">
+        Bridge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/faucet/" class="md-nav__link">
+        Faucet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/sponsorship/" class="md-nav__link">
+        Sponsorship
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/wallet/" class="md-nav__link">
+        Wallet
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
           Modules
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Modules" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+        <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           Modules
         </label>
@@ -313,36 +403,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../modules/bridge/" class="md-nav__link">
-        Bridge
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../modules/claim/" class="md-nav__link">
         Claim
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../modules/faucet/" class="md-nav__link">
-        Faucet
       </a>
     </li>
   
@@ -391,20 +453,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../modules/wallet/" class="md-nav__link">
-        Wallet
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -424,18 +472,18 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_7">
+        <label class="md-nav__link" for="__nav_8">
           Programs
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Programs" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
+        <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
           Programs
         </label>
@@ -811,6 +859,7 @@ Earning interest by lending out fungible tokens to borrowers</em></p>
 <p><strong>Requirements:</strong> <code>Collateralization &gt;= Min. collateralization</code><br />
 <strong>Outputs:</strong> <code>XETA transfer from sender to pool</code>, <code>Token transfer from pool to sender</code><br />
 <strong>Inputs:</strong><br />
+<code>Token</code> - Pool token (token to borrow)<br />
 <code>Collateralization</code> - Desired collateralization rate<br />
 <code>Amount</code> - XETA amount to be transferred as collateral  </p>
 <h3 id="settle">Settle</h3>
@@ -824,7 +873,8 @@ Earning interest by lending out fungible tokens to borrowers</em></p>
 <p><strong>Requirements:</strong> <code>Claim collateralization &lt; 0.75 * min. collateralization</code><br />
 <strong>Outputs:</strong> <code>XETA transfer from pool to borrower for remaining collateral</code>, <code>XETA transfer from pool to liquidator for finders reward</code><br />
 <strong>Inputs:</strong><br />
-<code>Claim</code> - Claim hash  </p>
+<code>Claim</code> - Claim hash 
+<code>Token</code> - Pool token  </p>
 <h3 id="deposit">Deposit</h3>
 <p>Deposit tokens as specified by the pool to earn a specific interest rate.</p>
 <p><strong>Requirements:</strong> <code>None</code><br />
@@ -837,7 +887,9 @@ Earning interest by lending out fungible tokens to borrowers</em></p>
 <p><strong>Requirements:</strong> <code>Active deposit claim</code><br />
 <strong>Outputs:</strong> <code>Token transfer from pool to sender</code>, <code>XETA transfer from pool to sender for interest earned</code><br />
 <strong>Inputs:</strong><br />
-<code>Claim</code> - Deposit claim hash  </p>
+<code>Claim</code> - Deposit claim hash<br />
+<code>Token</code> - Pool token<br />
+<code>Percentage</code> - Percentage to withdraw  </p>
 <h3 id="create">Create</h3>
 <p>Create a lending pool for a fungible token.</p>
 <p><strong>Requirements:</strong> <code>None</code><br />
